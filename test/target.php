@@ -1,0 +1,6 @@
+<?php
+var_dump($_POST);
+foreach ($_SERVER as $name => $value) {
+    echo "$name: $value\n";
+}
+?>
